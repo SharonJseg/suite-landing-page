@@ -244,6 +244,25 @@
   padding-top: 90px;
 }
 
+.footer__logo {
+  width: 81px;
+}
+
+.footer__copyright {
+  font-size: var(--fs-small);
+  color: var(--clr-gray);
+  line-height: 2;
+  letter-spacing: 0.08px;
+}
+
 .footer__social-icons {
   display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.social-icon__button {
+  background: none;
+  border: none;
+  padding: 0;
 }

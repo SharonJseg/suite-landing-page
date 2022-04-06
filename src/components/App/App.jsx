@@ -107,13 +107,20 @@ function App() {
           <p className='footer__copyright'>Copyright - Suite</p>
           <ul className='footer__social-icons'>
             <li>
-              <img src={fb} alt='' className='social-icon' />
+              <button className='social-icon__button'>
+                <img src={fb} alt='' className='social-icon' />
+              </button>
+            </li>
+
+            <li>
+              <button className='social-icon__button'>
+                <img src={tw} alt='' className='social-icon' />
+              </button>
             </li>
             <li>
-              <img src={tw} alt='' className='social-icon' />
-            </li>
-            <li>
-              <img src={inst} alt='' className='social-icon' />
+              <button className='social-icon__button'>
+                <img src={inst} alt='' className='social-icon' />
+              </button>
             </li>
           </ul>
         </div>
