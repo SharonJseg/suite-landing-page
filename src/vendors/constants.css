@@ -1,0 +1,25 @@
+:root {
+  /* Font families */
+  --ff: 'Epilogue', sans-serif;
+
+  /* Font Sizes */
+  --fs-small: 0.9375rem;
+  --fs-base: 1.125rem;
+  --fs-heading-base: 1rem;
+  --fs-quote: 1.25rem;
+  --fs-big: 3rem;
+  --fs-biggest: 4.5rem;
+
+  /* Font weights */
+  --fw-base: 400;
+  --fw-bold: 700;
+
+  /* Colors */
+  --clr-dark-blue: #172339;
+  --clr-gray: #49566d;
+  --clr-cream: #f3ede7;
+  --clr-cream-white: #faf8f6;
+  --clr-purple: #a060ff;
+  --clr-pink: #cb30e3;
+  --clr-yellow: #ffa84e;
+}
