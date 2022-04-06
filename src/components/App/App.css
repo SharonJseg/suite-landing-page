@@ -1,12 +1,18 @@
 .page {
-  max-width: 1100px;
   margin: 0 auto;
   min-height: 100vh;
+}
+
+.main {
+  max-width: 1110px;
+  margin: 0 auto;
 }
 
 /* Header */
 
 .header {
+  max-width: 1110px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -38,6 +44,7 @@
 .hero {
   display: flex;
   align-items: center;
+  z-index: 999;
 }
 
 .hero__cta {
@@ -71,6 +78,7 @@
 .curvedline__container {
   align-self: flex-end;
   margin-bottom: 21px;
+  padding-right: 50px;
 }
 
 .hero__cta-text {
@@ -138,4 +146,104 @@
   right: 0;
   height: 100%;
   z-index: -1;
+}
+
+/* testimonial */
+
+.testimonial {
+  background-color: var(--clr-dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  margin-top: 144px;
+  color: var(--clr-cream-white);
+}
+
+.testimonial__image-container {
+  z-index: 0;
+  margin-top: -55px;
+  position: relative;
+}
+
+.testimonial__image {
+  max-height: 600px;
+}
+
+.testimonial__pattern {
+  position: absolute;
+  bottom: -15px;
+  left: -70px;
+  z-index: -1;
+}
+
+.testimonial__curvedLine {
+  padding-left: 30px;
+  padding-right: 52.75px;
+  margin-bottom: 175px;
+}
+
+.testimonial__content {
+  max-width: 350px;
+}
+
+.testimonial__content-title {
+  font-size: var(--fs-big);
+  font-weight: var(--fw-bold);
+  line-height: 1.16;
+  letter-spacing: -0.5px;
+}
+
+.testimonial__content-title_regular {
+  font-weight: var(--fw-base);
+}
+
+.testimonial__content-quote {
+  margin: 40px 0;
+  font-size: var(--fs-quote);
+  font-weight: var(--fw-base);
+  line-height: 1.75;
+}
+
+.testimonial__content-caption {
+  font-size: var(--fs-base);
+  font-weight: var(--fw-bold);
+  letter-spacing: -0.5px;
+  line-height: 2;
+}
+
+.testimonial__content-caption_span {
+  display: block;
+  font-size: var(--fs-heading-base);
+  font-weight: var(--fw-base);
+  line-height: 1.625;
+  letter-spacing: 2.5px;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--clr-cream);
+  height: 464px;
+  margin-top: -275px;
+  z-index: -2;
+  position: relative;
+  display: flex;
+}
+
+.footer__container {
+  max-width: 1100px;
+  width: 100%;
+  align-self: flex-end;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 0;
+  padding-bottom: 72px;
+  padding-top: 90px;
+}
+
+.footer__social-icons {
+  display: flex;
 }
