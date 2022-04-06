@@ -8,3 +8,15 @@
     max-width: 689px;
   }
 }
+
+@media screen and (max-width: 570px) {
+  .main {
+    margin: 0 16px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .main {
+    margin: 0;
+  }
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import './Hero.css';
 import curvedline from '../../images/pattern-curved-line-1.svg';
 import heroImage from '../../images/image-hero-portrait@2x.webp';
+import heroImageMobile from '../../images/image-hero-landscape@2x.webp';
 
 const Hero = () => {
   return (
@@ -27,6 +28,11 @@ const Hero = () => {
           <img
             src={heroImage}
             className='hero__image'
+            alt='landscape image of a mobile phone'
+          />
+          <img
+            src={heroImageMobile}
+            className='hero__image_mobile'
             alt='landscape image of a mobile phone'
           />
         </div>
