@@ -5,6 +5,7 @@ import logo from '../../images/logo.svg';
 import fb from '../../images/icon-facebook.svg';
 import tw from '../../images/icon-twitter.svg';
 import inst from '../../images/icon-instagram.svg';
+import Icon from '../Icon/Icon';
 
 const Footer = () => {
   return (
@@ -15,18 +16,33 @@ const Footer = () => {
         <ul className='footer__social-icons'>
           <li>
             <button className='social-icon__button'>
-              <img src={fb} alt='' className='social-icon' />
+              <Icon
+                name='facebook'
+                height='20'
+                width='20'
+                className='social-icon'
+              />
             </button>
           </li>
 
           <li>
             <button className='social-icon__button'>
-              <img src={tw} alt='' className='social-icon' />
+              <Icon
+                name='twitter'
+                height='20'
+                width='20'
+                className='social-icon'
+              />
             </button>
           </li>
           <li>
             <button className='social-icon__button'>
-              <img src={inst} alt='' className='social-icon' />
+              <Icon
+                name='instagram'
+                height='20'
+                width='20'
+                className='social-icon'
+              />
             </button>
           </li>
         </ul>

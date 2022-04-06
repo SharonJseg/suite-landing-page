@@ -1,4 +1,5 @@
 import React from 'react';
+import './Hero.css';
 import curvedline from '../../images/pattern-curved-line-1.svg';
 import heroImage from '../../images/image-hero-portrait@2x.webp';
 
