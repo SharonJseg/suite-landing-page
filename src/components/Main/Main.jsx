@@ -6,7 +6,6 @@ import Testimonial from '../Testimonial/Testimonial';
 const Main = () => {
   return (
     <main className='main'>
-      <Hero />
       <Testimonial />
     </main>
   );

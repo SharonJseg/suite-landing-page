@@ -1,8 +1,12 @@
 .main {
-  max-width: 1110px;
-  margin: 0 auto;
+  /* width: min(95%, 1110px);
+  margin: 0 auto; */
+  /* position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 200px; */
 }
-
+/* 
 @media screen and (max-width: 768px) {
   .main {
     max-width: 689px;
@@ -19,4 +23,4 @@
   .main {
     margin: 0;
   }
-}
+} */

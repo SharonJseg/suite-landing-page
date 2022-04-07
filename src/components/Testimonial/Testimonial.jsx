@@ -20,10 +20,11 @@ const Testimonial = () => {
           src={cmoImageSmall}
           alt='jeremy robinson'
         />
+
         <img className='testimonial__pattern' src={patternBlur} alt='' />
       </div>
-      <div className='testimonial__curvedLine'>
-        <img src={smallLine} alt='' />
+      <div className='testimonial__curvedLine-container'>
+        <img src={smallLine} alt='' className='testimonial__curvedLine' />
       </div>
       <div className='testimonial__content'>
         <h2 className='testimonial__content-title'>

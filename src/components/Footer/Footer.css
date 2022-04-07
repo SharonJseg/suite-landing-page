@@ -1,9 +1,10 @@
 .footer {
   background-color: var(--clr-cream);
-  height: 464px;
-  margin-top: -275px;
+  /* height: 464px;
+  margin-top: -275px; */
   z-index: 0;
-  position: relative;
+  /* position: relative; */
+  padding-top: 22.5rem;
   display: flex;
 }
 

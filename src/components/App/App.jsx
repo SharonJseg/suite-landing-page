@@ -1,17 +1,18 @@
 import './App.css';
 
 import Header from '../Header/Header';
-
+import Nav from '../Nav/Nav';
 import Footer from '../Footer/Footer';
 import Main from '../Main/Main';
 
 function App() {
   return (
-    <div className='page'>
+    <>
+      <Nav />
       <Header />
       <Main />
       <Footer />
-    </div>
+    </>
   );
 }
 

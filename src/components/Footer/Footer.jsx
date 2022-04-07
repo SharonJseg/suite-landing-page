@@ -2,9 +2,6 @@ import React from 'react';
 import './Footer.css';
 
 import logo from '../../images/logo.svg';
-import fb from '../../images/icon-facebook.svg';
-import tw from '../../images/icon-twitter.svg';
-import inst from '../../images/icon-instagram.svg';
 import Icon from '../Icon/Icon';
 
 const Footer = () => {
