@@ -1,6 +1,7 @@
 import React from 'react';
 import './Nav.css';
 import logo from '../../images/logo.svg';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
   return (
@@ -8,7 +9,9 @@ const Nav = () => {
       <div>
         <img className='logo' src={logo} alt='suite logo' />
       </div>
-      <button className='request-beta_secondary'>Request Beta Access</button>
+      <Link to='/' className='request-beta_secondary'>
+        Request Beta Access
+      </Link>
     </nav>
   );
 };

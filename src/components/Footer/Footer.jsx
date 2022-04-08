@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 import logo from '../../images/logo.svg';
@@ -12,35 +13,35 @@ const Footer = () => {
         <p className='footer__copyright'>Copyright - Suite</p>
         <ul className='footer__social-icons'>
           <li>
-            <button className='social-icon__button'>
+            <Link to='/' className='social-icon__button'>
               <Icon
                 name='facebook'
                 height='20'
                 width='20'
                 className='social-icon'
               />
-            </button>
+            </Link>
           </li>
 
           <li>
-            <button className='social-icon__button'>
+            <Link to='/' className='social-icon__button'>
               <Icon
                 name='twitter'
                 height='20'
                 width='20'
                 className='social-icon'
               />
-            </button>
+            </Link>
           </li>
           <li>
-            <button className='social-icon__button'>
+            <Link to='/' className='social-icon__button'>
               <Icon
                 name='instagram'
                 height='20'
                 width='20'
                 className='social-icon'
               />
-            </button>
+            </Link>
           </li>
         </ul>
       </div>

@@ -42,14 +42,18 @@
 
 .hero__button {
   font-size: var(--fs-base);
-  line-height: 1.4;
+  line-height: 1.8;
   font-weight: var(--fw-bold);
   color: var(--clr-cream-white);
   padding: 15px 31px 14px 32px;
+  height: 61px;
+  display: flex;
   border: none;
   border-radius: 6px;
   background: var(--clr-dark-blue);
   letter-spacing: -0.18px;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .hero__button:hover {
@@ -102,6 +106,7 @@
 @media screen and (max-width: 1090px) {
   .hero {
     flex-direction: column;
+    padding-bottom: 450px;
   }
   .hero__wrapper {
     width: 100%;
@@ -114,10 +119,15 @@
     width: min(95%, 1110px);
     gap: 0;
     text-align: center;
+    margin-top: 20px;
   }
 }
 
 @media screen and (max-width: 960px) {
+  .hero {
+    padding-bottom: 520px;
+  }
+
   .hero__accent {
     max-width: 231px;
     margin-left: 224px;
@@ -141,6 +151,10 @@
     height: 482px;
     left: 408px;
     top: -42px;
+  }
+
+  .stats {
+    margin-top: 0;
   }
 }
 

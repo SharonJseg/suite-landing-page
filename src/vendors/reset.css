@@ -2,6 +2,22 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  scrollbar-color: var(--clr-purple) #f3ede7;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  height: 12px;
+  width: 10px;
+  background: #f3ede7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--clr-purple);
+}
+
+::-webkit-scrollbar-corner {
+  background: #000;
 }
 
 body,

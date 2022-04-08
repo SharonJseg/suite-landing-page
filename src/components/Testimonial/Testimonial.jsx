@@ -2,7 +2,9 @@ import React from 'react';
 import './Testimonial.css';
 
 import cmoImage from '../../images/image-jeremy-large@2x.webp';
-import cmoImageSmall from '../../images/image-jeremy-small@2x.webp';
+import cmoImageSmall from '../../images/image-jeremy-large.webp';
+
+import cmoImageMobile from '../../images/image-jeremy-small@2x.webp';
 import patternBlur from '../../images/pattern-blur.svg';
 import smallLine from '../../images/pattern-curved-line-2.svg';
 
@@ -10,14 +12,17 @@ const Testimonial = () => {
   return (
     <section className='testimonial'>
       <div className='testimonial__image-container'>
+        <picture className='testimonial__image'>
+          <source srcSet={cmoImageSmall} media='(max-width: 960px)' />
+          <img
+            className='testimonial__image'
+            src={cmoImage}
+            alt='jeremy robinson'
+          />
+        </picture>
         <img
-          className='testimonial__image'
-          src={cmoImage}
-          alt='jeremy robinson'
-        />
-        <img
-          className='testimonial__image_small'
-          src={cmoImageSmall}
+          className='testimonial__image_mobile'
+          src={cmoImageMobile}
           alt='jeremy robinson'
         />
 
